@@ -1,5 +1,5 @@
 import { getOr } from "lodash/fp";
-import { useRouter } from "next/Router";
+import { useRouter } from "next/router";
 import getStaticPropsRequest from "../../src/utils/getStaticPropsRequest";
 const Products = ({ products = [] }: PropTypes) => {
   const { push } = useRouter();
